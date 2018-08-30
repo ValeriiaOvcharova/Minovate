@@ -1,0 +1,73 @@
+.sidebar {
+    min-width: 230px;
+    margin: 32px 20px 0 0;
+}
+.layout-sidebar * {
+    list-style-type: none;
+}
+.main-list {
+    padding: 0;
+    background-color: #ffffff;
+}
+.main-list a {
+    color: #666666;
+}
+.main-list a:hover {
+    text-decoration: none;
+}
+.main-list > li {
+    padding: 8px 0;
+    border-bottom: 2px solid #f8f8f8; 
+}
+.main-list li:before {
+    content: '\203a';
+    font-size: 20px;
+    padding: 0 12px;
+}
+li .list-active {
+    color: var(--global-muted-color);
+}
+li > ul {
+    padding: 0 16px;
+}
+.sidebar-product-list {
+    margin-top: 0;
+}
+.choise {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.availability {
+    display: flex;
+    flex-direction: column;
+}
+.availability label, .availability div {
+    margin: 12px;
+}
+input[type="checkbox"] {
+    background-color: transparent;
+    border: 1.6px solid #cccccc;
+    margin-right: 6px;
+}
+.range label, .range div {
+    margin: 12px;
+}
+.mini-best-sellers {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding-top: 12px;
+}
+.mini-best-sellers > div {
+    display: flex;
+    max-height: 54px;
+    align-items: center;
+}
+.mini-best-sellers label, .mini-best-sellers div {
+    margin: 12px;
+}
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

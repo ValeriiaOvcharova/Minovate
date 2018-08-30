@@ -1,0 +1,16 @@
+
+.layout-overview-product {
+	justify-content: space-between;
+}
+
+
+.grid-overview-product {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.grid-overview-product .grid-item {
+	width: calc(100%/4);
+	padding-right: 10px;
+	padding-left: 10px;
+}
